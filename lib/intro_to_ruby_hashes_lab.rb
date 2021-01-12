@@ -11,6 +11,7 @@ def read_from_hash(hash, key)
     'name' => "Tzvi"
   }
   hash_to_read[key]
+  hash_to_read['name']
 end
 
 def update_counting_hash (hash, key)
