@@ -9,7 +9,7 @@ def read_from_hash(hash_to_read, key)
   hash_to_read = {
     name: "Steve"
   }
-  hash_to_read[:name]
+  hash_to_read[key]
 end
 
 def update_counting_hash(hash, key)
