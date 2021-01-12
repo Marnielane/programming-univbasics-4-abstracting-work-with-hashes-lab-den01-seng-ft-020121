@@ -4,15 +4,10 @@ def my_hash_creator(key, value)
   }
 end
 
-def read_from_hash(hash, key, value)
-    hash = {
-    (key) => (value)
-  }
+def read_from_hash(hash, key)
   hash[key]
 end
-  #hash_to_read[key]
-  #hash_to_read['name']
-#end
+
 
 def update_counting_hash (hash, key)
   hash_to_change = {
