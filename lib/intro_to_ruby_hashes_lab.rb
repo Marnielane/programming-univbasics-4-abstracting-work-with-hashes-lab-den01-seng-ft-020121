@@ -7,9 +7,8 @@ end
 def read_from_hash(hash, key)
   hash_to_read = {
     :name => "Steve",
-    :location => "NYC"
+    'name' => "Tzvi"
   }
-  my_hash[:name]
 end
 
 def update_counting_hash(hash, key)
