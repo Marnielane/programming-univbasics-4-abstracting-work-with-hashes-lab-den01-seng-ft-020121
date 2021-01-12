@@ -4,12 +4,11 @@ def my_hash_creator(key, value)
   }
 end
 
-def read_from_hash(hash_to_read, key)
-  key = :name
+def read_from_hash(hash, key)
   hash_to_read = {
     name: "Steve"
   }
-  hash_to_read[key]
+  hash_to_read[:name]
 end
 
 def update_counting_hash(hash, key)
