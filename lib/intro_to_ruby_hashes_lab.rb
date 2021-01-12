@@ -6,10 +6,9 @@ end
 
 def read_from_hash(hash, key)
   hash_to_read = {
-    name: "Steve"
+    (key) => "Steve"
   }
   hash_to_read[key]
-  hash_to_read[key] = "Tzvi"
 end
 
 def update_counting_hash (hash, key)
