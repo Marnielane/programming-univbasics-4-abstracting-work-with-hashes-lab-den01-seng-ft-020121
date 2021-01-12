@@ -6,8 +6,7 @@ end
 
 def read_from_hash(hash, key)
   hash_to_read = {
-    location: "New York City",
-    occupation: "Student"
+    (key): "Steve"
   }
 end
 
