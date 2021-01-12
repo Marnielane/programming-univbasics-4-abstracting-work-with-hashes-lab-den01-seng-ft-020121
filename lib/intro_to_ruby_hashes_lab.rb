@@ -14,7 +14,7 @@ end
 
 def update_counting_hash (hash, key)
   hash_to_change = {
-    count: 5
+    count: 5,
     amount: 50
   }
   if hash_to_change[key]
