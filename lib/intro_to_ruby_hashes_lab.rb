@@ -10,15 +10,12 @@ end
 
 
 def update_counting_hash (hash, key)
-  hash_to_change = {
-    count: 5,
-    amount: 50
-  }
-  if hash_to_change[key]
-    hash_to_change[key] +=1 
+  if hash[key]
+    hash[key] +=1 
   else
-    hash_to_change[key] =1 
+    hash[key] =1 
   end
+  hash
 end
 
 
