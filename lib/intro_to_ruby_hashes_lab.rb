@@ -5,11 +5,10 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key, value)
-  key = :name 
-  hash_to_read = {
+    hash = {
     (key) => (value)
-    #'name' => "Tzvi"
   }
+  hash[key]
 end
   #hash_to_read[key]
   #hash_to_read['name']
