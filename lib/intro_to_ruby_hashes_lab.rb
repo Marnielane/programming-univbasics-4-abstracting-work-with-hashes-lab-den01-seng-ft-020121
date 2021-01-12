@@ -10,6 +10,7 @@ def read_from_hash(hash, key)
     (key) => "Steve"
     'name' => "Tzvi"
   }
+  end
   hash_to_read[key]
   hash_to_read['name']
 end
