@@ -6,10 +6,10 @@ end
 
 def read_from_hash(hash, key)
   my_hash = {
-    :name => "Justin",
+    :name => "Steve",
     :location => "NYC"
   }
-  my_hash[:location]
+  my_hash[:name]
 end
 
 def update_counting_hash(hash, key)
